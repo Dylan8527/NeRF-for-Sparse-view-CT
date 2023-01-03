@@ -1,0 +1,20 @@
+{
+	"file": {
+		"proj_data_dir": "./inputdata/dense_180_sino.nii",
+		"proj_pose_data_dir": "./inputdata/dense_180_pos.nii",
+		"SOD" : 380,
+		"h": 256,
+		"w": 256,
+		"workspace": "./output/dense180"
+	},
+	"train": {
+		"gpu": 0,
+		"lr": 1e-3,
+		"epoch": 2000,
+		"save_epoch": 200,
+		"num_sample_ray": 10,
+		"lr_decay_epoch": 500,
+		"lr_decay_coefficient": 0.5,
+		"batch_size": 50
+	}
+}
